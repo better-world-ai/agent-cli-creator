@@ -54,7 +54,7 @@ Once installed, just say "Build me a CLI for example.com" in conversation to tri
 
 ## Working examples
 
-[better-world-ai/x-cli](https://github.com/better-world-ai/x-cli) collects a set of CLIs built with this exact skill — AI image generation, China rentals (58同城, 安居客), UK/US/EU rentals, hotel & flight booking, gaokao admissions, and more.
+[better-world-ai/x-cli](https://github.com/better-world-ai/x-cli) collects a set of CLIs built with this exact skill — AI image generation, China rentals (58同城, 安居客), UK/US/EU rentals, hotel & flight booking, gaokao admissions, and more. Each scenario has a copy-paste-ready prompt script in [x-cli/recipes/](https://github.com/better-world-ai/x-cli/tree/main/recipes).
 
 ## License
 
