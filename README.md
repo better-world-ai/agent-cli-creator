@@ -54,7 +54,7 @@ npx skills add better-world-ai/agent-cli-creator
 
 ## 工作示例
 
-[better-world-ai/x-cli](https://github.com/better-world-ai/x-cli) 收录了一批用这套方法做出来的 CLI——AI 画图、中国租房（58 同城、安居客）、英美欧租房、酒店机票预订、高考志愿查询等场景。
+[better-world-ai/x-cli](https://github.com/better-world-ai/x-cli) 收录了一批用这套方法做出来的 CLI——AI 画图、中国租房（58 同城、安居客）、英美欧租房、酒店机票预订、高考志愿查询等场景。每个场景的完整可复制提示词脚本见 [x-cli/recipes/](https://github.com/better-world-ai/x-cli/tree/main/recipes)。
 
 ## License
 
