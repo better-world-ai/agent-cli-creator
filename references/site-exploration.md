@@ -1,4 +1,4 @@
-# Site Exploration Protocol (Archaeology)
+# Site Exploration Protocol
 
 Run this full protocol for each planned feature **before** writing any implementation code.
 
@@ -83,7 +83,7 @@ curl -s -X POST http://127.0.0.1:10086/command \
   }'
 ```
 
-**If Step 6 returns expected data → archaeology done. Proceed to Phase 4.**
+**If Step 6 returns expected data → exploration done. Proceed to Phase 4.**
 **If Step 6 fails → check auth headers, adjust request, retry Step 6.**
 
 ---
@@ -105,7 +105,7 @@ Skip network capture if the feature is purely DOM-based:
 | Cursor-based pagination | `cursor`/`after` field in response | Pass cursor back in next request args |
 | Data only in XHR, not DOM | Real content loads via JS | Must use network capture; DOM snapshot is insufficient |
 
-## Archaeology Summary Template
+## Exploration Summary Template
 
 After completing the protocol, document findings before writing code:
 
