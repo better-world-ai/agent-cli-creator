@@ -17,7 +17,7 @@ Always the first command to implement. It must:
 
 ### 2. Find the auth check endpoint
 
-Use the site archaeology protocol (site-exploration.md). Navigate to the site, start network capture, reload the page or click on user-profile link. Look for:
+Use the site exploration protocol (site-exploration.md). Navigate to the site, start network capture, reload the page or click on user-profile link. Look for:
 - A `/me`, `/account/verify_credentials`, `/user/profile` API call
 - A `/session` or `/auth/status` endpoint
 - Any call that returns user identity (`user_id`, `username`, `is_guest`)
@@ -30,12 +30,12 @@ func CheckLogin(client *browser.Client) (*LoginStatus, error) {
     if err := client.Navigate("https://example.com/explore"); err != nil {
         return nil, err
     }
-    // Intercept the auth API response (discovered via site archaeology)
+    // Intercept the auth API response (discovered via site exploration)
     data, err := interceptAPI(client, "https://api.example.com", "/user/me")
     if err != nil {
         return nil, err
     }
-    // Parse the response — field names vary by site, adapt from archaeology findings
+    // Parse the response — field names vary by site, adapt from exploration findings
     var resp struct {
         Data struct {
             Guest  bool   `json:"guest"`   // false = logged in

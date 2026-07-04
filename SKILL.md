@@ -32,11 +32,11 @@ Ask the user in one message, wait for reply:
    - Account: login-status, user info
 
 **Explain iterative development to the user:**
-> "We'll start with 1–3 features to validate the approach end-to-end before adding more. Site archaeology for features you don't need yet wastes time. You can always add features later by re-running from Phase 3."
+> "We'll start with 1–3 features to validate the approach end-to-end before adding more. Site exploration for features you don't need yet wastes time. You can always add features later by re-running from Phase 3."
 
-## Phase 3: Site Archaeology (mandatory before writing any code)
+## Phase 3: Site Exploration (mandatory before writing any code)
 
-**This phase is non-negotiable. Do not write business logic until archaeology is complete.**
+**This phase is non-negotiable. Do not write business logic until exploration is complete.**
 
 For each planned feature, run the full protocol in `references/site-exploration.md`.
 
