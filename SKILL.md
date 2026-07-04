@@ -16,7 +16,7 @@ Guide an AI Coding Agent to build a website-automating CLI tool backed by the ki
 | Result | Action |
 |--------|--------|
 | `running: true` + `extension_connected: true` | Proceed |
-| Command not found | Tell user to visit https://www.kimi.team/features/webbridge (中文: https://www.kimi.team/zh-cn/features/webbridge) to install |
+| Command not found | Tell user to visit https://www.kimi.com/features/webbridge (中文: https://www.kimi.com/zh-cn/features/webbridge) to install |
 | `running: false` or `extension_connected: false` | Invoke the `kimi-webbridge` skill → references/operations.md |
 
 ## Phase 2: Requirements Interview
